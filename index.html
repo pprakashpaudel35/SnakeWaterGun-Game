@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="page1">
+
+
+        <div class="game">
+
+            <!-- <a href=""> -->
+                <div class="usr1">
+                        <form action="" method="post">
+                            <select name="game" id="game" style="padding: 10px;" onchange="onChange()">
+                                <option value="snake">Snake</option>
+                                <option value="water">Water</option>
+                                <option value="gun">Gun</option>
+                            </select>
+                        </form>
+                    </div>
+            <!-- </a> -->
+
+            <div class="usr2">
+                <p id="cpu">cpu</p>
+            </div>
+
+        </div>
+
+        <div class="score">
+
+            <div class="usr1score">
+                <p id="usrScore">score 1</p>
+            </div>
+
+            <div class="usr2score">
+                <p id="cpuScore">score2 </p>
+            </div>
+
+        </div>
+
+        <div id="button">
+            <button id="btn1" onclick="clck()">start</button>
+        </div>
+
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

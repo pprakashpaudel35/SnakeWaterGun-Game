@@ -1,0 +1,63 @@
+/* *{
+    background-color: aqua;
+} */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.page1{
+    background-color: pink;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.game{
+    background-color: cadetblue;
+    color: azure;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    border: 1px solid white;
+}
+
+
+.game > div {
+    border: 1px solid white;
+    padding: 50px;
+}
+
+/* a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    border: 1px solid white;
+} */
+
+
+.score{
+    background-color: cadetblue;
+    color: azure;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    border: 1px solid white;
+}
+.score > div {
+    border: 1px solid white;
+    padding: 5px;
+}
+
+button{
+    padding: 10px;
+    width: 200px;
+    font-size: x-large;
+}
